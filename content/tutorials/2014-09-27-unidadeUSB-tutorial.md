@@ -12,13 +12,13 @@ author: "Leandro Ricardo"
 O objetivo deste tutorial é a criação uma unidade de arranque USB para instalação de sistemas operativos GNU/Linux
 
 ## Conteúdos
-1. [Soluções para sistemas Microsoft Windows](#Windows)
+1. [Soluções para sistemas Microsoft Windows](#windows)
    1. [Rufus](#rufus)
-2. [Soluções para sistemas UNIX-like](#UNIX)
+2. [Soluções para sistemas UNIX-like](#unix)
    1. [dd](#dd)
 
-## <a name="Windows"></a> Soluções para sistemas Microsoft Windows
-### <a name="rufus"></a> Rufus
+## Soluções para sistemas Microsoft Windows {#windows}
+### Rufus
 O Rufus é uma pequena ferramenta que ajuda a formatar  e a criar unidades de arranque USB (e cartões).
 
 Ele é especialmente útil nos casos:
@@ -29,7 +29,7 @@ Ele é especialmente útil nos casos:
 #### Procedimento
 1. Descarregue o Rufus [nesta pagina](https://rufus.akeo.ie/), em Download
 2. Execute o programa. Ele tem este aspeto:
-[![](/assets/img/tutorials/USB/rufus_en.png)](/assets/img/tutorials/USB/rufus_en.png)
+![](/img/tutorials/USB/rufus_en.png)
 3. Escolha o dispositivo (Device). Foi escolhido o dispositivo H: neste caso
 4. Caso pretenda arrancar o dipositivo num sistema BIOS, selecione MBR; Caso pretenda arranca-lo num sistema UEFI, selecione GPT (o sistema híbrido não funciona na perfeição em todos os computadores)
 5. No  sistema de ficheiros, deixe a opção selecionada por omissão
@@ -39,8 +39,8 @@ Ele é especialmente útil nos casos:
 9. Por fim, inicie o processo carregando em “Start“
 10. Feche o programa
 
-## <a name="UNIX"></a> Soluções para sistemas UNIX-like
-### <a name="dd"></a> dd
+## Soluções para sistemas UNIX-like {#unix}
+### dd
 O comando dd está disponível por omissão em quase todos os sistemas UNIX-like (como o MacOS X).
 
 ~~~shell

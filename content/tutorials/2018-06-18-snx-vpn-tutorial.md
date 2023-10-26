@@ -13,12 +13,6 @@ author: "Leonardo Costa"
 
 Neste tutorial pode encontrar informações de como configurar a VPN da Universidade Aveiro usando o SNX.
 
-# Índice
-{:.no_toc}
-
-1. Lista ordenada
-{:toc}
-
 # Requisitos
 ## Ubuntu
 Execute o seguinte comando no terminal

@@ -9,37 +9,32 @@ tutorial : true
 comments: false
 author: "Leandro Ricardo"
 diskparted: 
-            - /assets/img/tutorials/ubuntuInstall/disk_1.png
-            - /assets/img/tutorials/ubuntuInstall/disk_2.png
-            - /assets/img/tutorials/ubuntuInstall/disk_3.png
+            - /img/tutorials/ubuntuInstall/disk_1.png
+            - /img/tutorials/ubuntuInstall/disk_2.png
+            - /img/tutorials/ubuntuInstall/disk_3.png
 fastboot: 
-            - /assets/img/tutorials/ubuntuInstall/1.png
-            - /assets/img/tutorials/ubuntuInstall/2.png
-            - /assets/img/tutorials/ubuntuInstall/3.png
-            - /assets/img/tutorials/ubuntuInstall/4.png
+            - /img/tutorials/ubuntuInstall/1.png
+            - /img/tutorials/ubuntuInstall/2.png
+            - /img/tutorials/ubuntuInstall/3.png
+            - /img/tutorials/ubuntuInstall/4.png
 part:	
-            - /assets/img/tutorials/ubuntuInstall/part_0.png
-            - /assets/img/tutorials/ubuntuInstall/part_1.png
-            - /assets/img/tutorials/ubuntuInstall/part_2.png
+            - /img/tutorials/ubuntuInstall/part_0.png
+            - /img/tutorials/ubuntuInstall/part_1.png
+            - /img/tutorials/ubuntuInstall/part_2.png
 install:   
-            - /assets/img/tutorials/ubuntuInstall/install_1.png
-            - /assets/img/tutorials/ubuntuInstall/install_2.png
-            - /assets/img/tutorials/ubuntuInstall/install_3.png
-            - /assets/img/tutorials/ubuntuInstall/install_4.png
-            - /assets/img/tutorials/ubuntuInstall/install_5.png
-            - /assets/img/tutorials/ubuntuInstall/install_6.png
+            - /img/tutorials/ubuntuInstall/install_1.png
+            - /img/tutorials/ubuntuInstall/install_2.png
+            - /img/tutorials/ubuntuInstall/install_3.png
+            - /img/tutorials/ubuntuInstall/install_4.png
+            - /img/tutorials/ubuntuInstall/install_5.png
+            - /img/tutorials/ubuntuInstall/install_6.png
 
 ---
 
-
+<!--TODO: make adequate warning-->
 >Este guia está otimizado para a versão 16.04 LTS. Algumas imagens podem diferir ligeiramente em futuras versões.
 >
 >É altamente recomendado a fazer uma cópia de segurança dos seus ficheiros. Se não pretende optar por dual-boot ou está pouco à vontade, considere utilizar uma máquina virtual.
-
-## Conteúdos
-{: .no_toc}
-1.  TOC
-{: toc}
 
 ## Pré-requisitos
 1. Ter um meio de instalação (DVD ou USB);
@@ -64,11 +59,11 @@ No Windows fazer a combinação de teclas Windows+R.
 
 Escreva diskmgmt.msc e confirmar clicando no botão OK.
 
-[![]({{ page.diskparted[0] }})]({{ page.diskparted[0] }})
+![](/img/tutorials/ubuntuInstall/disk_1.png)
 
 Com o botão direito do rato selecione uma partição com espaço (tipicamente, poderá selecionar a partição c:\ ou  caso tenha uma segunda partição d:\) e selecione "reduzir".
 
-[![]({{ page.diskparted[1] }})]({{ page.diskparted[1] }})
+![](/img/tutorials/ubuntuInstall/disk_2.png)
 
 >### Cálculo do valor a reduzir
 >+ / : >25GB, onde o sistema e programas estarão localizados
@@ -80,7 +75,7 @@ Com o botão direito do rato selecione uma partição com espaço (tipicamente, 
 Escreva o valor que deseja em Megabytes(conversão de GB para MB, multiplique o número de GB por 1024) e confirme clicando no botão reduzir.
 
 >Se a partição utilizada estiver fragmentada poderá acontecer o seguinte erro:
->[![]({{ page.diskparted[2] }})]({{ page.diskparted[2] }})
+>![](/img/tutorials/ubuntuInstall/disk_3.png)
 >Nesse caso deverá desfragmentar o disco (com a ferramenta do Windows ou com outra – como o Piriform Defraggler)
 
 Aguarde e depois disso, o espaço em branco foi criado com sucesso!
@@ -90,16 +85,16 @@ De seguida, iremos introduzir a média de instalação.
 ## Considerações sobre o arranque
 No Windows fazer a combinação de teclas Windows+R.
 Escreva POWERCFG.CPL e confirmar clicando no botão OK.
-[![]({{ page.fastboot[0] }})]({{ page.fastboot[0] }})
+![](/img/tutorials/ubuntuInstall/1.png)
 
 Selecione “Escolher o que fazem os botões para ligar/desligar”.
-[![]({{ page.fastboot[1] }})]({{ page.fastboot[1] }})
+![](/img/tutorials/ubuntuInstall/2.png)
 
 Selecione “Alterar definições que estão atualmente indisponíveis”
-[![]({{ page.fastboot[2] }})]({{ page.fastboot[2] }})
+![](/img/tutorials/ubuntuInstall/3.png)
 
 Desmarque a opção “Ativar o arranque rápido”.
-[![]({{ page.fastboot[3] }})]({{ page.fastboot[3] }})
+![](/img/tutorials/ubuntuInstall/4.png)
 
 Reinicie o computador e entre na BIOS / firmware UEFI.
 
@@ -123,27 +118,27 @@ No fim, não se esqueça de guardar as alterações ("Exit Saving Changes", na a
 
 ## Instalação
 Logo depois, o programa de instalação surge (normalmente em inglês). Escolha a linguagem que pretende.
-[![]({{ page.install[0] }})]({{ page.install[0] }})
+![](/img/tutorials/ubuntuInstall/install_1.png)
 
 Clique nas duas opções (marcadas a laranja na imagem).
 > Se estiver a instalar o sistema na universidade, deixe a primeira opção desmarcada.
-[![]({{ page.install[1] }})]({{ page.install[1] }})
+![](/img/tutorials/ubuntuInstall/install_2.png)
 
 Quanto ao tipo de instalação, escolha a opção “Mais alguma coisa…”
-[![]({{ page.part[0] }})]({{ page.part[0] }})
+![](/img/tutorials/ubuntuInstall/part_0.png)
 
 ### Criação de partições
 De seguida poderá ter uma configuração mais ou menos semelhante com esta. O importante a reter é que apenas irá tocar na parte não alocada.
 Este ecrã mostra o espaço livre criado anteriormente no Windows.
-[![]({{ page.part[1] }})]({{ page.part[1] }})
+![](/img/tutorials/ubuntuInstall/part_1.png)
 
 Para cada ponto de montagem (/, /swap e /home), clique no botão +, com seleção no espaço livre e preencha os seguintes dados e selecione “OK”:
-+ Tamanho: deverá inserir o tamanho determinado em [Cálculo do espaço a reduzir](#shrink_space); Note que neste caso, o utilizador optou por utilizar apenas 20GB.
++ Tamanho: deverá inserir o tamanho determinado em [Cálculo do espaço a reduzir](#passos-para-a-criação-de-um-espaço-não-alocado); Note que neste caso, o utilizador optou por utilizar apenas 20GB.
 + Tipo de nova partição: irrelevante para este caso de aprendizagem.
 + Localização para a nova partição: “Início deste espaço”.
 + Utilizar como: “Sistema de ficheiros Ext4 com journal”, no caso da partição / e /home, ou “Área de swap”, no caso da partição /swap.
 + Mount point: / ou /home ou /swap.
-[![]({{ page.part[2] }})]({{ page.part[2] }})
+![](/img/tutorials/ubuntuInstall/part_2.png)
 
 >Nota de extrema importância: Restrinja-se a fazer especificamente o que manda o tutorial.
 >
@@ -157,16 +152,16 @@ Comece a instalação, clicando no botão “Instalar agora”. Deverá agora 
 Esta parte é mais fácil: após selecionar o botao “Instalar agora”, o setup irá configurar proceder à instalação. Ao mesmo tempo, é pedido ao utilizador que defina várias definições: teclado, fuso horário e fuso horário.
 
 Selecione o fuso horário.
-[![]({{ page.install[2] }})]({{ page.install[2] }})
+![](/img/tutorials/ubuntuInstall/install_3.png)
 
 E o esquema do teclado.
-[![]({{ page.install[3] }})]({{ page.install[3] }})
+![](/img/tutorials/ubuntuInstall/install_4.png)
 
 Configure o nome de utilizador e a palavra-passe:
-[![]({{ page.install[4] }})]({{ page.install[4] }})
+![](/img/tutorials/ubuntuInstall/install_5.png)
 
 Por fim, deverá aguardar a conclusão do setup.
-[![]({{ page.install[5] }})]({{ page.install[5] }})
+![](/img/tutorials/ubuntuInstall/install_6.png)
 
 
 

@@ -23,47 +23,10 @@ kde:
  - /img/tutorials/eduroam/kde-3.png
 ---
 
-<style>
-  table{
-      border-collapse: collapse;
-      border-spacing: 0;
-      border:2px solid #000000;
-      text-align: center;
-  }
-
-  th{
-      border:2px solid #000000;
-  }
-
-  td{
-      border:1px solid #000000;
-  }
-</style>
-
-[ubuntuInternetIcon]: {{page.unity[0]}}
-[ubuntuInternetMenu]: {{page.unity[1]}}
-[ubuntuInternetLoad]: {{page.unity[2]}}
-[ubuntuInternetLoad2]: {{page.unity[3]}}
-
-[gnomeInternetIcon]: {{page.gnome[0]}}
-[gnomeInternetMenu]: {{page.gnome[1]}}
-[gnomeInternetLoad]: {{page.gnome[2]}}
-
-[kdeInternetIcon]: {{page.kde[0]}}
-[kdeInternetMenu]: {{page.kde[1]}}
-[kdeInternetLoad]: {{page.kde[2]}}
-
 Neste tutorial pode encontrar informações de como configurar a rede eduroam na sua distribuição de GNU/Linux.
 
 
-  <h2>Conteúdos</h2>
-  + [Certificados](#certificados)
-  + [Unity](#unity)
-  + [Gnome 3](#gnome3)
-  + [KDE](#kde)
-  + [Linha de Comandos](#commandLine)
-
-## <a name="certificados"></a>Certificados
+## Certificados
 
 Para poder conectar-se a rede **eduroam** vai ser preciso indicar um certificado de autentificação, cujo o seu destino e ficheiro pode diferir para as diferentes distribuições GNU/LINUX. Assim sendo pode confirmar na seguinte tabela qual é o caminho e ficheiro para as diferentes distribuições:
 
@@ -80,65 +43,67 @@ ________________________________
 
 >Caso continue sem conexão, selecione o certificado **_DigiCert_Assured_ID_Root_CA.pem_**
 
-## <a name="unity"></a>Unity
+## Unity
 
-No canto superior direito deve selecionar o ícone de rede [![ubuntuInternetIcon]]({{page.unity[0]}})
+No canto superior direito deve selecionar o ícone de rede ![ubuntuInternetIcon](/img/tutorials/eduroam/unity-1.png)
 De seguida preencher os campos com os seguintes dados:
 
-
+Campo                   |Valor
 :---------------------: |:--------------------:
 Wireless Security       | WPA&WPA2 Enterprise
 Autentication           | Protected EAP (PEAP)
 Anonymous Identity      |                     
-CA certificate          | [Ver na tabela dos Certificados](#Certificados)  
+CA certificate          | [Ver na tabela dos Certificados](#certificados)  
 PEAP version            | Version 0           
 Inner authentication    | MSCHAPv2            
 Username                | mail@ua.pt          
 Password                | *****
 
-[![ubuntuInternetMenu]]({{page.unity[1]}})
+![ubuntuInternetMenu](/img/tutorials/eduroam/unity-2.png)
 
 Depois de preencher todos os campos, conforme foi referido anteriormente, basta proceder a conexão e esperar
-[![ubuntuInternetLoad]]({{page.unity[2]}})
+![ubuntuInternetLoad](/img/tutorials/eduroam/unity-3.png)
 
 Após os dados serem validados irá receber a seguinte mensagem de ligação concluída com sucesso:
-[![ubuntuInternetLoad2]]({{page.unity[3]}})
+![ubuntuInternetLoad2](/img/tutorials/eduroam/unity-4.png)
 
 ________________________________
 
-## <a name="gnome3"></a> Gnome3
+## Gnome3
 
-No canto superior direito, como no [Unity](##Unity), deve selecionar o ícone de rede 
-[![gnomeInternetIcon]]({{page.gnome[0]}})
+No canto superior direito, como no [Unity](#unity), deve selecionar o ícone de rede 
+![gnomeInternetIcon](/img/tutorials/eduroam/gnome3-1.png)
 
-Após selecionar a rede **eduroam** deverá preencher os dados como na secção do [Unity](##Unity).
+Após selecionar a rede **eduroam** deverá preencher os dados como na secção do [Unity](#unity).
 
-[![gnomeInternetMenu]]({{page.gnome[1]}})
+![gnomeInternetMenu](/img/tutorials/eduroam/gnome3-2.png)
 
 Depois de confirmar basta aguardar a validação de dados.
 
-[![gnomeInternetLoad]]({{page.gnome[2]}})
+![gnomeInternetLoad](/img/tutorials/eduroam/gnome3-3.png)
 
 ________________________________
 
-## <a name="kde"></a> KDE
+## KDE
 
 No canto inferior direito selecionar o ícone de rede. 
-[![kdeInternetIcon]]({{page.kde[0]}})
+![kdeInternetIcon](/img/tutorials/eduroam/kde-1.png)
 
-Após selecionar a rede **eduroam** deverá preencher os dados como nas secções anteriores. (ex: [Unity](##Unity))
+Após selecionar a rede **eduroam** deverá preencher os dados como nas secções anteriores. (ex: [Unity](#unity))
 
-[![kdeInternetMenu]]({{page.kde[1]}})
+![kdeInternetMenu](/img/tutorials/eduroam/kde-2.png)
 
 Despois de confirmar os dados inseridos os dados serão validados e terá a conexão com a rede **eduroam**.
 
-[![kdeInternetLoad]]({{page.kde[2]}})
+![kdeInternetLoad](/img/tutorials/eduroam/kde-3.png)
 
 ________________________________
 
-## <a name="commandLine"></a> Linha de Comandos
+## Linha de Comandos
 
-##### (**Atenção: Apenas para utilizadores com experiência..**)
+<!--TODO: Use a warning-->
+(**Atenção: Apenas para utilizadores com experiência...**)
+
 Caso prefira conectar-se a rede **eduroam** utilizando a consola siga os seguintes passos:
 
 1 - Criar o ficheiro eduroam.conf e guardar o mesmo na home (~):
@@ -158,7 +123,9 @@ network={
 >caso queira iniciar com a eduroam por padrão adicione a parte do network ao ficheiro /etc/wpa_supplicant/wpa_supplicant.conf (Os passos 3 e 4 passam a ser desnecessários)
 
 2 - Alterar o texto ***SUBSTITUIR*** para o certificado de acordo com a sua distribuição
-##### Consultar a secção dos [certificados](#certificados)
+
+<!--TODO: Use a warning-->
+**Consultar a secção dos [certificados](#certificados)**
 
 ```bash
 ca_cert="SUBSTITUIR"
