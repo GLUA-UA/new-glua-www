@@ -10,9 +10,7 @@ author: "André Alves"
 feature: /assets/img/talks_workshops/wil23/publicacao.png
 ---
 
-<figure>
-        <a href="/assets/img/talks_workshops/wil23/publicacao.png"><img src="/assets/img/talks_workshops/wil23/publicacao.png"></a>
-</figure>
+![cartaz](/img/talks_workshops/wil23/publicacao.png)
 
 # Workshop de Introdução ao Linux
 

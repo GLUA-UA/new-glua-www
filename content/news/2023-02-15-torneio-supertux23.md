@@ -10,12 +10,7 @@ tutorial: false
 comments: false
 ---
 
-[st-masto]: {{ site.baseurl }}/assets/img/posts/supertux23/st-masto.png
-[st-post]: {{ site.baseurl }}/assets/img/posts/supertux23/st-post.png
-[st-pdf]: {{ site.baseurl }}/assets/img/posts/supertux23/st-poster.pdf
-[st-poster]: {{ site.baseurl }}/assets/img/posts/supertux23/st-poster.png
-[st-story]: {{ site.baseurl }}/assets/img/posts/supertux23/st-story.png
-![Cartaz do evento com algumas das informações em baixo escritas][st-masto]
+![Cartaz do evento com algumas das informações em baixo escritas](/img/posts/supertux23/st-masto.png)
 
 # Torneio de SuperTux 2023
 
@@ -31,7 +26,7 @@ Em cada fase, os concorrentes terão de passar níveis entre um inicial e um fin
 
 Não são permitidos *bugs*, *glitches*, *hacks* ou quaisquer outros *exploits*.
 
-Para mais informações, consultem o [regulamento](/assets/docs/Regulamento_do_Torneio_SuperTux.pdf){:target="_blank"}.
+Para mais informações, consultem o [regulamento](/assets/docs/Regulamento_do_Torneio_SuperTux.pdf).
 
 📍 **Anfiteatro IV do DETI**\
 📆 **27 de fevereiro**\
@@ -41,7 +36,7 @@ Para mais informações, consultem o [regulamento](/assets/docs/Regulamento_do_T
 <hr>
 ## Inscrição
 
-Alternativamente pode-se inscrever [aqui](https://forms.gle/2kMSfS6GDygV42rC8){:target="_blank"}.
+Alternativamente pode-se inscrever [aqui](https://forms.gle/2kMSfS6GDygV42rC8).
 
 <style>
 input + span {

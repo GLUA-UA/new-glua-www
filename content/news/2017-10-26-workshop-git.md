@@ -8,9 +8,7 @@ tutorial: false
 comments: false
 ---
 
-[git]: {{ site.baseurl }}/assets/img/talks_workshops/git.png
-
-![alt_text][git]
+![alt_text](/img/talks_workshops/git.png)
 
 
 O Git é um sistema de controlo de revisões e gestão de histórico de código fonte que tem tido um crescimento enorme nos últimos tempos e que se assume cada vez mais como a principal ferramenta do 

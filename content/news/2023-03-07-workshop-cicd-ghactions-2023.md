@@ -11,12 +11,7 @@ author: "André Alves"
 feature: /assets/img/talks_workshops/workshop-cicd-ghactions-2023/gh-actions-logo.png
 ---
 
-<figure>
-        <a href="/assets/img/talks_workshops/workshop-cicd-ghactions-2023/cicdws-masto.png"><img src="/assets/img/talks_workshops/workshop-cicd-ghactions-2023/cicdws-masto.png"></a>
-</figure>
-
-
-# Workshop de CI/CD em GitHub Actions
+![cartaz](/img/talks_workshops/workshop-cicd-ghactions-2023/cicdws-masto.png)
 
 Já ouviste falar de CI/CD e GitHub Actions?
 
@@ -31,9 +26,9 @@ Participa no nosso workshop onde vais aprender a automatizar os processos de des
 
 🕖 18:00
 
-<figure>
-        📍<a href="/assets/img/talks_workshops/workshop-cicd-ghactions-2023/4106.jpg">DETI na sala 4.1.06</a>
-</figure>
+📍DETI na sala 4.1.06
+
+![map](/img/talks_workshops/workshop-cicd-ghactions-2023/4106.jpg)
 
 📝 [Inscrições](https://bit.ly/glua-cicdws23)
 
