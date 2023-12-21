@@ -30,13 +30,17 @@ social_media:
     url: https://ciberlandia.pt/@glua
 internal_links:
   - text: Sobre
-    url: /
+    url: /about
+  - text: Inscreve-te! 
+    url: https://gluacloud.rui2015.me/index.php/apps/forms/s/zYRd2ngYwKXqSK5dDKxexX9M
+  - text: Helpdesk 
+    url: https://glua.ua.pt/helpdesk
   - text: Notícias
-    url: /
+    url: /news
   - text: Tutoriais
-    url: /
+    url: /tutorials
   - text: Mirrors
-    url: /
+    url: https://glua.ua.pt/mirrors
 ---
 
 
