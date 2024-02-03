@@ -1,6 +1,6 @@
 # Glua's new website
 
-Base on hugo using the hextra theme
+Based on hugo using the hextra theme
 
 ## How to run it
 
