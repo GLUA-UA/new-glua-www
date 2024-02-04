@@ -1,8 +1,11 @@
+module:
+  imports:
+    - path: github.com/imfing/hextra
 baseURL: https://glua.ua.pt/
 languageCode: pt-pt 
 #title: Grupo de Linux da Universidade de Aveiro
 title: GLUA
-theme: hextra
+#theme: hextra
 icon: /home/me/projects/glua/site/static/logos_n_norms/glua_small_white.svg 
 params:
   navbar:
