@@ -27,50 +27,14 @@
   <div
     class="{{ $footerWidth }} mx-auto flex justify-center py-12 pl-[max(env(safe-area-inset-left),1.5rem)] pr-[max(env(safe-area-inset-right),1.5rem)] text-gray-600 dark:text-gray-400 md:justify-start"
   >
-  <div class="flex w-full flex-col items-center sm:items-start ">
-      {{- if (.Site.Params.footer.displayPoweredBy | default true) }}<div class="font-semibold">{{ template "theme-credit" $poweredBy }}</div>{{ end }}
-      {{- if .Site.Params.footer.displayCopyright }}<div class="mt-6 text-xs">{{ $copyright | markdownify }}</div>{{ end }}
-    </div>
-	  <img src="/img/ua_deti.svg" alt="UA DETI" width=265px height=52px>
-	  <div class="flex">
-		  <a href="mailto:glua@ua.pt">
-			  <img src="/icons/email_b.svg" alt="Email" width=50px height=50px>
-		  </a>
-		  <a href="https://facebook.com/glua.ua">
-			  <img src="/icons/facebook_b.svg" alt="Facebook" width=50px height=50px>
-		  </a>
-		  <a href="https://instagram.com/glua01">
-			  <img src="/icons/instagram_w.svg" alt="Instagram" width=50px height=50px>
-		  </a>
-		  <a href="https://youtube.com/glua01">
-			  <img src="/icons/twitter_b.svg" alt="Twitter" width=50px height=50px>
-		  </a>
-		  <a href="mailto:glua@ua.pt">
-			  <img src="/icons/youtube_b.svg" alt="Youtube" width=50px height=50px>
-		  </a>
-		  <a href="https://github.com/glua-ua">
-			  <img src="/icons/github_b.svg" alt="Github" width=50px height=50px>
-		  </a>
-		  <a href="https://linkedin.com/company/glua">
-			  <img src="/icons/linkedin_b.svg" alt="Linkedin" width=50px height=50px>
-		  </a>
-		  <a href="mailto:glua@ua.pt">
-			  <img src="/icons/discord_b.svg" alt="Discord" width=50px height=50px>
-		  </a>
-		  <a href="https://ciberlandia.pt/@glua">
-			  <img src="/icons/help_b.svg" alt="Mastodon" width=50px height=50px>
-		  </a>
-	  </div>
+<div class="flex w-full justify-center space-x-4">
+    <!-- Loop through social media links from metadata -->
+    {{ range .Params.social_media }}
+        <div class="flex items-center">
+            <a href="{{ .url }}" class="p-2"><img src="{{ .image }}" alt="{{ .name }}" class="w-8 h-8"></a>
+        </div>
+    {{ end }}
+</div>
+ 
   </div>
 </footer>
-
-{{- define "theme-credit" -}}
-  <a class="flex text-sm items-center gap-1 text-current" target="_blank" rel="noopener noreferrer" title="Hextra GitHub Homepage" href="https://github.com/imfing/hextra">
-    <span>
-      {{- . | markdownify -}}
-      {{- if strings.Contains . "Hextra" -}}
-        {{- partial "utils/icon.html" (dict "name" "hextra" "attributes" `height=1em class="inline-block ml-1 align-[-2.5px]"`) -}}
-      {{- end -}}
-    </span>
-  </a>
-{{- end -}}

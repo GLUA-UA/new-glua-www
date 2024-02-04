@@ -28,7 +28,7 @@ social_media:
     image: /icons/discord_b.svg 
     url: https://discord.gg/kTXAMkPqFS
   - name: mastodon 
-    image: /icons/help_b.svg 
+    image: /icons/mastodon_b.svg 
     url: https://ciberlandia.pt/@glua
 internal_links:
   - text: Sobre
