@@ -1,6 +1,9 @@
 {{- $enableFooterSwitches := .Scratch.Get "enableFooterSwitches" | default false -}}
 {{- $displayThemeToggle := site.Params.theme.displayToggle | default true -}}
 
+{{- $copyright := (T "copyright") | default "© 2023 Hextra." -}}
+{{- $poweredBy := (T "poweredBy") | default "Powered by Hextra" -}}
+
 {{- $footerWidth := "max-w-screen-xl" -}}
 {{- with .Site.Params.footer.width -}}
   {{ if eq . "wide" -}}
@@ -24,6 +27,9 @@
   <div
     class="{{ $footerWidth }} mx-auto flex justify-center py-12 pl-[max(env(safe-area-inset-left),1.5rem)] pr-[max(env(safe-area-inset-right),1.5rem)] text-gray-600 dark:text-gray-400 md:justify-start"
   >
+  <div class="flex w-full flex-col items-center sm:items-start ">
+      {{- if .Site.Params.footer.displayCopyright }}<div class="mt-6 text-xs">{{ $copyright | markdownify }}</div>{{ end }}
+    </div>
 <div class="flex w-full justify-center space-x-4">
     <!-- Loop through social media links from metadata -->
     {{ range .Param "social_media" }}
@@ -39,4 +45,3 @@
  
   </div>
 </footer>
-
