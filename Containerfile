@@ -6,6 +6,6 @@ RUN apk add --no-cache hugo git
 WORKDIR /app
 COPY . .
 
- # RUN git submodule update --init --recursive
+RUN git submodule update --init --recursive
 
-CMD ["hugo", "server", "--bind", "0.0.0.0"]
+CMD ["hugo", "server", "--disableFastRender", "--bind", "0.0.0.0"]

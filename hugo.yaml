@@ -11,20 +11,47 @@ params:
       dark: logos_n_norms/glua_medium_orange_for_black_bg.svg
       width: 50
       height: 50
+
+  social_media:
+    - name: e-mail
+      image_b: /icons/email_b.svg 
+      image_w: /icons/email_w.svg 
+      url: mailto:glua@ua.pt
+    - name: facebook
+      image_b: /icons/facebook_b.svg 
+      image_w: /icons/facebook_w.svg 
+      url: https://facebook.com/glua.ua
+    - name: instagram
+      image_b: /icons/instagram_b.svg 
+      image_w: /icons/instagram_w.svg 
+      url: https://instagram.com/glua01
+    - name: twitter
+      image_b: /icons/twitter_b.svg 
+      image_w: /icons/twitter_w.svg 
+      url: https://twitter.com/glua
+    - name: youtube
+      image_b: /icons/youtube_b.svg 
+      image_w: /icons/youtube_w.svg 
+      url: https://youtube.com/glua01
+    - name: github
+      image_b: /icons/github_b.svg 
+      image_w: /icons/github_w.svg 
+      url: https://github.com/glua-ua
+    - name: linkedin
+      image_b: /icons/linkedin_b.svg 
+      image_w: /icons/linkedin_w.svg 
+      url: https://linkedin.com/company/glua
+    - name: discord
+      image_b: /icons/discord_b.svg 
+      image_w: /icons/discord_w.svg 
+      url: https://discord.gg/kTXAMkPqFS
+    - name: mastodon 
+      image_b: /icons/mastodon_b.svg 
+      image_w: /icons/mastodon_w.svg 
+      url: https://ciberlandia.pt/@glua
+
 menu:
   main:
-    #- name: More
-      #params:
-        #type: separator
-      #weight: 1
-    #- name: "About"
-      #pageRef: "/about"
-      #weight: 2
-    #- name: "Hugo Docs ↗"
-      #url: "https://gohugo.io/documentation/"
-      #weight: 3 
-    #- name: Sobre
-      #url: /about
     - name: Inscreve-te! 
       url: https://gluacloud.rui2015.me/index.php/apps/forms/s/zYRd2ngYwKXqSK5dDKxexX9M
       weight: 1
@@ -40,7 +67,5 @@ menu:
     - name: Tutoriais
       url: /tutorials
       weight: 5
-#module:
-  #imports:
-    #- path: github.com/imfing/hextra
+
 

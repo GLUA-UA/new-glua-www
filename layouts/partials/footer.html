@@ -26,11 +26,15 @@
   >
 <div class="flex w-full justify-center space-x-4">
     <!-- Loop through social media links from metadata -->
-    {{ range .Params.social_media }}
+    {{ range .Param "social_media" }}
         <div class="flex items-center">
-            <a href="{{ .url }}" class="p-2"><img src="{{ .image }}" alt="{{ .name }}" class="w-8 h-8"></a>
+            <a href="{{ .url }}" class="p-2">
+              <img class="block dark:hidden" src="{{ .image_b }}" alt="{{ .name }}" class="w-8 h-8">
+              <img class="hidden dark:block" src="{{ .image_w }}" alt="{{ .name }}" class="w-8 h-8">
+            </a>
         </div>
     {{ end }}
+
 </div>
  
   </div>
