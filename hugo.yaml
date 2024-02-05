@@ -6,14 +6,15 @@ languageCode: pt-pt
 #title: Grupo de Linux da Universidade de Aveiro
 title: GLUA
 #theme: hextra
-icon: /home/me/projects/glua/site/static/logos_n_norms/glua_small_white.svg 
+#icon: /logos_n_norms/glua_small_white.svg 
+icon: logos_n_norms/orange_tux.svg
 params:
   navbar:
     logo:
-      path: logos_n_norms/glua_medium_orange_for_white_bg.svg
-      dark: logos_n_norms/glua_medium_orange_for_black_bg.svg
-      width: 50
-      height: 50
+      path: logos_n_norms/orange_tux.svg
+      #dark: logos_n_norms/glua_medium_orange_for_black_bg.svg
+      width: 25px
+      height: 25px
 menu:
   main:
     #- name: More
