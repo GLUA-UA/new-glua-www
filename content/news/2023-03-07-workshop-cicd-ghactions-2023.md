@@ -1,9 +1,10 @@
 ---
 layout: post
 title: "Workshop de CI/CD em GitHub Actions"
+thumbnail: 'glua_medium_orange_for_white_bg.png'
 date: 2023-03-07
 updated: 2023-03-13
-excerpt: "Informações e Inscrição no Workshop"
+description: "Informações e Inscrição no Workshop"
 tags: [git, workshop, github, github actions, CI/CD]
 tutorial: false
 comments: false
