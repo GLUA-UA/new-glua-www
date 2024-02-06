@@ -3,10 +3,7 @@ module:
     - path: github.com/imfing/hextra
 baseURL: https://glua.ua.pt/
 languageCode: pt-pt 
-#title: Grupo de Linux da Universidade de Aveiro
 title: GLUA
-#theme: hextra
-#icon: /logos_n_norms/glua_small_white.svg 
 icon: logos_n_norms/orange_tux.svg
 params:
   navbar:
@@ -17,6 +14,10 @@ params:
       height: 25px
 
   social_media:
+    - name: rss
+      image_b: /icons/rss_b.svg
+      image_w: /icons/rss_w.svg
+      url: /news/index.xml
     - name: e-mail
       image_b: /icons/email_b.svg 
       image_w: /icons/email_w.svg 
@@ -71,5 +72,3 @@ menu:
     - name: Tutoriais
       url: /tutorials
       weight: 5
-
-
