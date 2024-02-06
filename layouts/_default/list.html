@@ -29,8 +29,7 @@
                 {{ $thumbnail := resources.Get .Params.thumbnail }}
                 {{ if $thumbnail }}
 
-            <div class="w-1/4 grow pr-6 hidden sm:block" style="background-image: url('{{ $thumbnail.RelPermalink }}');background-size: contain;background-repeat: no-repeat; background-position: center;" >
-                  <!-- <img src="{{ $thumbnail.RelPermalink }}" alt="{{ $thumbnail.Name }}" class="w-full rounded-md"> -->
+            <div class="w-1/4 grow pr-6 hidden sm:block" style="background-image: url('{{ $thumbnail.RelPermalink }}');background-size: contain;background-repeat: no-repeat; background-position: center;border-radius: 25px;" >
                 {{ else }}
                 <div class="w-1/4 flex-grow pr-6 hidden sm:block" >
                   <p>No thumbnail found for path: {{ .Params.thumbnail }}</p>
