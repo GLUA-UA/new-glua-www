@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "VPN da UA(novo método)"
-thumbnail: 'glua_medium_orange_for_white_bg.png'
+thumbnail: 'thumbnails/orange_tux.svg'
 date: 2018-06-18
 updated: 2020-03-26
 description: "Como ligar o computador à VPN da Universidade de Aveiro usando SNX"

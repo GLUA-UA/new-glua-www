@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Sessão livre de iniciação ao GIT"
-thumbnail: 'glua_medium_orange_for_white_bg.png'
+thumbnail: 'thumbnails/orange_tux.svg'
 date: 2017-10-26
 description: "Informação sobre o evento"
 tags: [estado, máquina]

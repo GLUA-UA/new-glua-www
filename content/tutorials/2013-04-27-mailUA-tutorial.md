@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Configuração email UA"
-thumbnail: 'glua_medium_orange_for_white_bg.png'
+thumbnail: 'thumbnails/orange_tux.svg'
 date: 2013-04-8
 description: "Como configurar o email da UA."
 tags: []

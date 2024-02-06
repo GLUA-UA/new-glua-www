@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Criar unidade de arranque USB"
-thumbnail: 'glua_medium_orange_for_white_bg.png'
+thumbnail: 'thumbnails/orange_tux.svg'
 date: 2014-09-27
 description: "Criação de uma unidade de arranque USB para instalação de sistema operativos GNU/Linux"
 tags: []
