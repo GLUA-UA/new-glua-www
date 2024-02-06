@@ -1,8 +1,9 @@
 ---
 layout: post
 title: "Workshop de Introdução ao Linux"
+thumbnail: 'glua_medium_orange_for_white_bg.png'
 date: 2023-10-19
-excerpt: "Informações e Inscrição no Workshop"
+description: "Informações e Inscrição no Workshop"
 tags: [workshop, glua, linux, workshoplinux]
 tutorial: false
 comments: false

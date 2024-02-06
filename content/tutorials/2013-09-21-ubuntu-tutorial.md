@@ -1,9 +1,10 @@
 ---
 layout: post
 title: "Instalação Ubuntu"
+thumbnail: 'glua_medium_orange_for_white_bg.png'
 date: 2013-09-21
 updated: 2017-09-10
-excerpt: "Como instalar Ubuntu (versão 16.04 LTS) em dual boot passo a passo."
+description: "Como instalar Ubuntu (versão 16.04 LTS) em dual boot passo a passo."
 tags: []
 tutorial : true
 comments: false
