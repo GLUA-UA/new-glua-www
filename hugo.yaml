@@ -1,8 +1,74 @@
+module:
+  imports:
+    - path: github.com/imfing/hextra
 baseURL: https://glua.ua.pt/
 languageCode: pt-pt 
-title: Grupo de Linux da Universidade de Aveiro
-theme: hextra
-#module:
-  #imports:
-    #- path: github.com/imfing/hextra
+title: GLUA
+icon: logos_n_norms/orange_tux.svg
+params:
+  navbar:
+    logo:
+      path: logos_n_norms/orange_tux.svg
+      #dark: logos_n_norms/glua_medium_orange_for_black_bg.svg
+      width: 25px
+      height: 25px
 
+  social_media:
+    - name: rss
+      image_b: /icons/rss_b.svg
+      image_w: /icons/rss_w.svg
+      url: /news/index.xml
+    - name: e-mail
+      image_b: /icons/email_b.svg 
+      image_w: /icons/email_w.svg 
+      url: mailto:glua@ua.pt
+    - name: facebook
+      image_b: /icons/facebook_b.svg 
+      image_w: /icons/facebook_w.svg 
+      url: https://facebook.com/glua.ua
+    - name: instagram
+      image_b: /icons/instagram_b.svg 
+      image_w: /icons/instagram_w.svg 
+      url: https://instagram.com/glua01
+    - name: twitter
+      image_b: /icons/twitter_b.svg 
+      image_w: /icons/twitter_w.svg 
+      url: https://twitter.com/glua
+    - name: youtube
+      image_b: /icons/youtube_b.svg 
+      image_w: /icons/youtube_w.svg 
+      url: https://youtube.com/glua01
+    - name: github
+      image_b: /icons/github_b.svg 
+      image_w: /icons/github_w.svg 
+      url: https://github.com/glua-ua
+    - name: linkedin
+      image_b: /icons/linkedin_b.svg 
+      image_w: /icons/linkedin_w.svg 
+      url: https://linkedin.com/company/glua
+    - name: discord
+      image_b: /icons/discord_b.svg 
+      image_w: /icons/discord_w.svg 
+      url: https://discord.gg/kTXAMkPqFS
+    - name: mastodon 
+      image_b: /icons/mastodon_b.svg 
+      image_w: /icons/mastodon_w.svg 
+      url: https://ciberlandia.pt/@glua
+
+menu:
+  main:
+    - name: Inscreve-te! 
+      url: https://gluacloud.rui2015.me/index.php/apps/forms/s/zYRd2ngYwKXqSK5dDKxexX9M
+      weight: 1
+    - name: Helpdesk 
+      url: https://glua.ua.pt/helpdesk
+      weight: 2
+    - name: Mirrors
+      url: https://glua.ua.pt/mirrors
+      weight: 3
+    - name: Notícias
+      url: /news
+      weight: 4
+    - name: Tutoriais
+      url: /tutorials
+      weight: 5
