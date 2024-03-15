@@ -16,15 +16,16 @@ Neste tutorial pode encontrar informações de como configurar a rede eduroam na
 
 ## Certificados
 
-Para poder conectar-se a rede **eduroam** vai ser preciso indicar um certificado de autentificação, cujo o seu destino e ficheiro pode diferir para as diferentes distribuições GNU/LINUX. Assim sendo pode confirmar na seguinte tabela qual é o caminho e ficheiro para as diferentes distribuições:
+Para poder conectar-se à rede **eduroam**, vai ser preciso indicar um certificado de autenticação, cujo destino e ficheiro difere entre distribuições GNU/LINUX. 
+Assim sendo, pode confirmar na seguinte tabela qual é o caminho e ficheiro para as diferentes distribuições:
 
 Para poder conectar-se à rede **eduroam** é necessário indicar um certificado de autentificação, cuja a sua localização difere para as diferentes distribuições GNU/LINUX. Assim sendo, pode confirmar na seguinte tabela qual é o caminho do ficheiro para as diferentes distribuições.
 
 |            Distribuição             |                  Ficheiro a selecionar                   |
 |:-----------------------------------:|:--------------------------------------------------------:|
-| **Debian/Ubuntu/Gentoo/Arch Linux** | **CA Certificate**: _/etc/ssl/certs/ca-certificates.crt_ |
-| **Fedora/RHEL**                     | **CA Certificate**: _/etc/pki/tls/certs/ca-bundle.crt_   |
-| **openSUSE/SLE**                    | **CA Certificate**: _/etc/ssl/ca-bundle.pem_             |
+| **Debian/Ubuntu/Gentoo/Arch Linux** | /etc/ssl/certs/ca-certificates.crt |
+| **Fedora/RHEL**                     | /etc/pki/tls/certs/ca-bundle.crt   |
+| **openSUSE/SLE**                    | /etc/ssl/ca-bundle.pem             |
 
 
 ________________________________
@@ -33,7 +34,7 @@ ________________________________
 
 ## Unity
 
-No canto superior direito deve selecionar o ícone de rede ![ubuntuInternetIcon](unity-1.png)
+No canto superior direito deve selecionar o ícon de rede ![ubuntuInternetIcon](unity-1.png)
 De seguida preencher os campos com os seguintes dados:
 
 Campo                   |Valor
@@ -59,10 +60,10 @@ ________________________________
 
 ## Gnome3
 
-No canto superior direito, como no [Unity](#unity), deve selecionar o ícone de rede 
+No canto superior direito, como no [Unity](#unity), deve selecionar o ícon de rede 
 ![gnomeInternetIcon](img/gnome3-1.png)
 
-Após selecionar a rede **eduroam** deverá preencher os dados como na secção do [Unity](#unity).
+Após selecionar a rede **eduroam**, deverá preencher os dados como na secção do [Unity](#unity).
 
 ![gnomeInternetMenu](img/gnome3-2.png)
 
@@ -74,14 +75,14 @@ ________________________________
 
 ## KDE
 
-No canto inferior direito selecionar o ícone de rede. 
+No canto inferior direito selecionar o ícon de rede. 
 ![kdeInternetIcon](img/kde-1.png)
 
-Após selecionar a rede **eduroam** deverá preencher os dados como nas secções anteriores. (ex: [Unity](#unity))
+Após selecionar a rede **eduroam**, deverá preencher os dados como nas secções anteriores. (ex: [Unity](#unity))
 
 ![kdeInternetMenu](img/kde-2.png)
 
-Despois de confirmar os dados inseridos os dados serão validados e terá a conexão com a rede **eduroam**.
+Despois de confirmar os dados inseridos, estes serão validados e terá a conexão com a rede **eduroam**.
 
 ![kdeInternetLoad](img/kde-3.png)
 
@@ -125,22 +126,22 @@ ca_cert="SUBSTITUIR"
 sudo pkill wpa_supplicant && sudo wpa_supplicant -i wlan0 -c /home/$USERNAME/eduroam.conf
 ```
 
-4 - Por fim será necessário fazer um pedido ao servidor de DHCP também como súper-utilizador(___root___). Para tal, abrir outra consola e escrever:
+4 - Por fim, será necessário fazer um pedido ao servidor de DHCP, também como súper-utilizador(___root___). Para tal, é preciso abrir outra consola e escrever:
 
 ```bash
 sudo dhclient wlan0
 ```
 
-Foi usado o cliente de DHCP dhclient (típico de Debian/Ubuntu/Fedora), mas poderia ser usado qualquer outro à escolha, por exemplo, o dhcpcd (típico de ArchLinux/Gentoo).
+Foi usado o cliente de DHCP `dhclient` (típico de Debian/Ubuntu/Fedora), mas poderia ser usado qualquer outro à escolha, por exemplo, o `dhcpcd` (típico de ArchLinux/Gentoo).
 
->Caso tenha problemas de "_disconnects_", ou problemas de obter um endereço IP, na distribuição ArchLinux adicione a seguinte linha na secção _main_ do ficheiro _NetoworkManager.conf_ que se encontra em */etc/NetoworkManager/NetoworkManager.conf*
+>Caso tenha problemas de "_disconnects_", ou problemas em obter um endereço IP, na distribuição Arch Linux, adicione a seguinte linha na secção _main_ do ficheiro _NetoworkManager.conf_ que se encontra em */etc/NetoworkManager/NetoworkManager.conf*
 ```bash
 DHCP = dhclient
 ```
 
->caso não se deseje abrir outra consola, pode-se executar o _wpa_supplicant_ em segundo plano usando:
+>caso não queira abrir outra consola, pode-se executar o _wpa_supplicant_ em segundo plano usando:
 ~~~bash
 sudo wpa_supplicant -i wlan0 -c/home/$USERNAME/eduroam.conf -B
 ~~~
 
-Pronto, tem a sua distribuição configurada!
+Pronto, tem acesso à rede eduroam!
