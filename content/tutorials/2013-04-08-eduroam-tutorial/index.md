@@ -32,38 +32,12 @@ ________________________________
 
 >Caso continue sem conexão, selecione o certificado **_DigiCert_Assured_ID_Root_CA.pem_**
 
-## Unity
-
-No canto superior direito deve selecionar o ícon de rede ![ubuntuInternetIcon](unity-1.png)
-De seguida preencher os campos com os seguintes dados:
-
-Campo                   |Valor
-:---------------------: |:--------------------:
-Wireless Security       | WPA&WPA2 Enterprise
-Autentication           | Protected EAP (PEAP)
-Anonymous Identity      |                     
-CA certificate          | [Ver na tabela dos Certificados](#certificados)  
-PEAP version            | Version 0           
-Inner authentication    | MSCHAPv2            
-Username                | mail@ua.pt          
-Password                | *****
-
-![ubuntuInternetMenu](img/unity-2.png)
-
-Depois de preencher todos os campos, conforme foi referido anteriormente, basta proceder a conexão e esperar
-![ubuntuInternetLoad](img/unity-3.png)
-
-Após os dados serem validados irá receber a seguinte mensagem de ligação concluída com sucesso:
-![ubuntuInternetLoad2](img/unity-4.png)
-
-________________________________
-
 ## Gnome3
 
-No canto superior direito, como no [Unity](#unity), deve selecionar o ícon de rede 
+No canto superior direito deve selecionar o ícon de rede 
 ![gnomeInternetIcon](img/gnome3-1.png)
 
-Após selecionar a rede **eduroam**, deverá preencher os dados como na secção do [Unity](#unity).
+Após selecionar a rede **eduroam**, deverá preencher os dados como na print, colocando o seu email e password da UA.
 
 ![gnomeInternetMenu](img/gnome3-2.png)
 
@@ -73,20 +47,20 @@ Depois de confirmar basta aguardar a validação de dados.
 
 ________________________________
 
-## KDE
+<!--## KDE-->
 
-No canto inferior direito selecionar o ícon de rede. 
-![kdeInternetIcon](img/kde-1.png)
+<!--No canto inferior direito selecionar o ícon de rede. -->
+<!--![kdeInternetIcon](img/kde-1.png)-->
 
-Após selecionar a rede **eduroam**, deverá preencher os dados como nas secções anteriores. (ex: [Unity](#unity))
+<!--Após selecionar a rede **eduroam**, deverá preencher os dados como nas secções anteriores. (ex: [Unity](#unity))-->
 
-![kdeInternetMenu](img/kde-2.png)
+<!--![kdeInternetMenu](img/kde-2.png)-->
 
-Despois de confirmar os dados inseridos, estes serão validados e terá a conexão com a rede **eduroam**.
+<!--Despois de confirmar os dados inseridos, estes serão validados e terá a conexão com a rede **eduroam**.-->
 
-![kdeInternetLoad](img/kde-3.png)
+<!--![kdeInternetLoad](img/kde-3.png)-->
 
-________________________________
+<!--________________________________-->
 
 ## Linha de Comandos
 
