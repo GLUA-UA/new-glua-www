@@ -8,7 +8,7 @@ description: "Como ligar o computador à VPN da Universidade de Aveiro usando SN
 tags: []
 tutorial : true
 comments: false
-author: "Leonardo Costa"
+author: "Diogo Silva"
  
 ---
 
@@ -22,9 +22,7 @@ Quem não use ubuntu pode ver a secção [abaixo](#outras-distribuições) dedic
 Estas são as instruções para executa-lo :
 
 ```shell
-cd Downloads # mudar de diretório para a localização do ficheiro
-chmod +x glua-system-config-script.sh # dar premissões de execução ao ficheiro
-sudo ./glua-system-config-script.sh # Executar
+ ~$ wget https://glua.ua.pt/lip/install.sh && sudo bash install.sh 
 ```
 
 A partir dai é só seguir a interface gráfica para prosseguir com a configuração do vpn
@@ -53,23 +51,21 @@ snx -d
 
 1. Faça download deste ficheiro [cshell_install.sh](https://go.ua.pt/sslvpn/SNX/INSTALL/cshell_install.sh)
 
-2. Feche todas as janelas de todos os navegadores web(browser) abertos
+2. Abra o terminal na pasta para onde transferiu o ficheiro
 
-3. Abra o terminal na pasta para onde transferiu o ficheiro
-
-4. Dê permissões com o seguinte comando
+3. Dê permissões com o seguinte comando
 ~~~ shell
 sudo chmod +x cshell_install.sh
 ~~~
 
-5. Instale com o seguinte comando
+4. Instale com o seguinte comando (tenha em atenção que deve fechar todas as janelas de navegadores abertas)
 ~~~ shell
 sudo sh cshell_install.sh
 ~~~
 
-6. Crie o ficheiro **checkpoint.service** em **~/.config/systemd/user/** (*se não existir o diretório crie*)
+5. Crie o ficheiro **checkpoint.service** em **~/.config/systemd/user/** (*se não existir o diretório crie*)
 
-7. Copie e cole nesse ficheiro o seguinte conteúdo
+6. Copie e cole nesse ficheiro o seguinte conteúdo
 ~~~
     [Unit]
     Description=checkpoint client
@@ -85,12 +81,12 @@ sudo sh cshell_install.sh
     WantedBy=default.target
 ~~~
 
-8. Dê autostart do servico através do seguinte comando, **substitua** GLUA pelo seu user
+7. Dê autostart do servico através do seguinte comando, **substitua** GLUA pelo seu user
 ~~~ shell
     systemctl --user enable checkpoint.service
 ~~~
 
-9. Crie um ficheiro com o nome **.snxrc** na pasta de usuário(exemplo "/home/glua/.snxrc") com os seguintes conteúdos, **substituindo** "glua@ua.pt" pelo seu email da ua
+8. Crie um ficheiro com o nome **.snxrc** na pasta de usuário(exemplo "/home/glua/.snxrc") com os seguintes conteúdos, **substituindo** "glua@ua.pt" pelo seu email da ua
 ~~~
     server go.ua.pt
     username glua@ua.pt
@@ -98,13 +94,13 @@ sudo sh cshell_install.sh
 ~~~
 
 
-10. **Reinicie** o computador
+9. **Reinicie** o computador
 
-11. Abra o navegador web(browser), vá a **gerir ou visualizar certificados**, geralmente localizada no separador de privacidade ou segurança
+10. Abra o navegador web(browser), vá a **gerir ou visualizar certificados**, geralmente localizada no separador de privacidade ou segurança
 
-12. Em **Autoridades** importe o certificado **CShell_Certificate.crt** localizado em **/usr/bin/cshell/cert/**
+11. Em **Autoridades** importe o certificado **CShell_Certificate.crt** localizado em **/usr/bin/cshell/cert/**
 
-13. Na página inicial do go.ua.pt clique em connect e clique **Trust**, **Confie** e **OK** em todos os popups que aparecerem
+12. Na página inicial do go.ua.pt clique em connect e clique **Trust**, **Confie** e **OK** em todos os popups que aparecerem
 
-14. Ver parte da [utilização](#utilização)
+13. Ver parte da [utilização](#utilização)
 
