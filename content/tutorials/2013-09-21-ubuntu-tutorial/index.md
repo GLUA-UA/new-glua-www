@@ -193,9 +193,23 @@ Leia com cuidado o que lhe pede e, tendo as escolhas tomadas, aguarde o fim da e
 
 ## Resolução de problemas 
 ### Hora muda quando se muda entre Windows e Linux
-#### Para Windows 7, 8 e 10
+#### Para Windows 7, 8, 10 e 11
 Copie e execute como administrador na PowerShell do Windows (ou na Linha de Comando do Windows) a seguinte linha
 
 ~~~powerhell
 reg add "HKEY_LOCAL_MACHINE\System\CurrentControlSet\Control\TimeZoneInformation" /v RealTimeIsUniversal /d 1 /t REG_DWORD /f
 ~~~
+
+###  Desativar o Secure Boot no seu sistema
+
+Ligue o seu sistema
+
+Aceda ao menu da BIOS (Na figura abaixo podera ver os diversos atalhos para aceder a sua BIOS)
+
+Clique na guia Boot (Podera estar na pagina Advanced Settings)
+
+Selecione a opção Secure boot e dê Disable (pressionando ENTER)
+
+Dê Save and Exit
+
+![](img/BIOS.png)
