@@ -17,7 +17,7 @@ Neste tutorial pode encontrar informações de como configurar a VPN da Universi
  
 ## Instalação em Ubuntu
 Para Ubuntu temos dentro do nosso conjunto de scritps do glua um relativo á [configuração do sistema]( https://raw.githubusercontent.com/GLUA-UA/glua-scripts/main/glua-system-config-script/glua-system-config-script.sh ), onde uma das secções é dedicada á configuração do vpn da ua.
-Quem não use ubuntu pode ver a secção [abaixo](#outras-distribuições) dedicada a outras distribuições.
+Quem não use ubuntu pode ver a secção [abaixo](#instalação-em-outras-distribuições) dedicada a outras distribuições.
 
 Estas são as instruções para executa-lo :
 
