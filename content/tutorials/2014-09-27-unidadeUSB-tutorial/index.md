@@ -59,3 +59,4 @@ Exemplo:
 ~~~shell
 dd if="/home/lricardo/Downloads/ubuntu-14.04.1-desktop-amd64.iso" of="/dev/sdc" bs=4M && sync
 ~~~
+
