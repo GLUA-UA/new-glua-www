@@ -18,8 +18,13 @@
 
   <nav class="mx-auto flex items-center justify-end gap-2 h-16 px-6 {{ $navWidth }}">
     <a class="flex hover:opacity-75 ltr:mr-auto rtl:ml-auto" href="{{ $logoLink }}">
-        <img class="block dark:hidden" src="{{ $logoPath | relURL }}" alt="{{ .Site.Title }}" height="{{ $logoHeight }}" width="{{ $logoWidth }}" />
-        <img class="hidden dark:block" src="{{ $logoDarkPath | relURL }}" alt="{{ .Site.Title }}" height="{{ $logoHeight }}" width="{{ $logoWidth }}" />
+      {{- if (.Site.Params.navbar.displayTitle | default true) }}
+        <span class="mx-2 text-4xl homenaje-regular font-extrabold inline select-none" title="{{ .Site.Title }}">{{- strings.ToLower .Site.Title -}}</span>
+      {{- end }}
+      {{- if (.Site.Params.navbar.displayLogo | default true) }}
+        <img class="block dark:hidden homenaje-regular text-4xl" src="{{ $logoPath | relURL }}" alt="{{- strings.ToLower .Site.Title -}}" height="{{ $logoHeight }}" width="{{ $logoWidth }}" />
+        <img class="hidden dark:block homenaje-regular text-4xl" src="{{ $logoDarkPath | relURL }}" alt="{{- strings.ToLower .Site.Title -}}" height="{{ $logoHeight }}" width="{{ $logoWidth }}" />
+      {{- end }}
     </a>
 
     {{- $currentPage := . -}}

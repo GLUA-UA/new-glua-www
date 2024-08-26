@@ -7,6 +7,7 @@ title: GLUA
 icon: logos_n_norms/orange_tux.svg
 params:
   navbar:
+    displayTitle: false
     logo:
       path: logos_n_norms/glua_logo.svg
       dark: logos_n_norms/glua_logo_dark.svg
