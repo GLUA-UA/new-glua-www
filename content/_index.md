@@ -1,8 +1,11 @@
 ---
 title: "Grupo de Linux da Universidade de Aveiro"
+layout: glua-home
 toc: false
 ---
 
+
+<!-- 
 ![glua_bg_white](/img/logos/glua_medium_orange_for_white_bg.png)
 
 <br>
@@ -23,4 +26,4 @@ Pode, no entanto, contactar-nos através do [e-mail](mailto:glua@ua.pt) ou pelo 
 Se pretende colaborar com o GLUA de alguma maneira, ou mesmo fazer parte, inscreve-te neste [formulário](https://gluacloud.rui2015.me/index.php/apps/forms/s/zYRd2ngYwKXqSK5dDKxexX9M).
 
 ## Contactos
-Pode contactnar-nos via *e-mail* [glua@ua.pt](mailto:glua@ua.pt) ou através do nosso servidor de [discord](https://discord.gg/kTXAMkPqFS).
+Pode contactnar-nos via *e-mail* [glua@ua.pt](mailto:glua@ua.pt) ou através do nosso servidor de [discord](https://discord.gg/kTXAMkPqFS). -->
