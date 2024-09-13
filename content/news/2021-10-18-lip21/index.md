@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Linux Install Party 2021"
-thumbnail: 'thumbnails/orange_tux.svg'
+thumbnail: 'thumbnails/news/linux_install_party_2021.png'
 date: 2021-10-13
 description: "Instalação de Ubuntu em dual boot com o Windows"
 tags: [linux, dual boot, windows]
@@ -9,7 +9,7 @@ tutorial: false
 comments: false
 ---
 
-UPDATE - Adiamento: 
+UPDATE - Adiamento:
 Infelizmente surgiram alguns entraves logísticos de última hora que nos impedem de realizar o primeiro dia do evento no dia de 18 (segunda-feira), conforme estabelecido. Sendo assim, o evento passará a decorrer na terça-feira dia 19 e quinta-feira dia 21, às horas previstas.
 
 ![cartaz](cartaz.png)

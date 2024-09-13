@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Instalação Ubuntu"
-thumbnail: 'thumbnails/orange_tux.svg'
+thumbnail: 'thumbnails/tutorials/ubuntu.svg'
 date: 2013-09-21
 updated: 2017-09-10
 description: "Como instalar Ubuntu (versão 22.04 LTS) em dual boot passo a passo."
@@ -13,7 +13,7 @@ author: "Leandro Ricardo"
 
 <!--TODO: make adequate warning-->
 {{<callout type="warning">}}
-Este guia está feito para a versão 22.04 LTS. 
+Este guia está feito para a versão 22.04 LTS.
 Algumas imagens podem diferir ligeiramente em versões futuras do Ubuntu, ainda que o processo em si pouco mude.
 {{</callout>}}
 
@@ -31,12 +31,12 @@ Ainda que o processo seja seguro, erros podem acontecer.
 Multi-boot / Dual-boot: Esquema que permite a um computador entrar em dois (dual) ou mais (multi) sistemas operativos quando é ligado.
 {{</callout>}}
 
-### Criação um espaço vazio com o gestor de partições do Windows 
+### Criação de um espaço vazio com o gestor de partições do Windows
 
 O desejo da maior parte dos utilizadores é não perder os dados da instalação já existente do Windows. De maneira a eliminar possíveis erros iremos criar um espaço vazio com o "Gestor de discos do Windows" e criar as partições no "Instalador do Ubuntu".
 
 {{<callout type="warn">}}
-Pode fazer a mesma coisa com o instalador do Ubuntu, mas qualquer erro de particionamento poderia dar origem à perda de dados. 
+Pode fazer a mesma coisa com o instalador do Ubuntu, mas qualquer erro de particionamento poderia dar origem à perda de dados.
 Este método é menos falível nesse sentido.
 {{</callout>}}
 
@@ -44,7 +44,7 @@ No Windows o "Gestor de partições do Windows" permite gerir partições do dis
 
 Este método é mais seguro para os principiantes porque conseguem à partida, separar um espaço que é independente da instalação do Windows (e portanto sem riscos).
 
-## Passos para a criação de um espaço não alocado 
+## Passos para a criação de um espaço não alocado
 
 No Windows fazer a combinação de teclas Windows+R.
 
@@ -102,7 +102,7 @@ Em grande parte dos computadores, existe um popup (BBS Popup) que permite mudar 
 ### Configurações adicionais para UEFI
 
 {{<callout type="info">}}
-Se o computador for de 2013 ou mais recente, ou se vinha com o windows 8 ou superior, então tem provavelmente UEFI. Se não tem UEFI, salte para o próximo passo. 
+Se o computador for de 2013 ou mais recente, ou se vinha com o windows 8 ou superior, então tem provavelmente UEFI. Se não tem UEFI, salte para o próximo passo.
 {{</callout>}}
 
 Nos últimos anos, um novo sistema de arranque (UEFI) substituiu o antigo (MBR). É necessário ter precauções adicionais se o seu computador tem UEFI.
@@ -191,7 +191,7 @@ bash install.sh
 Este script atualiza o computador, baixa alguns pacotes essenciais, pode instalar drivers da nvidia, mudar a ordem do grub, entre outros.
 Leia com cuidado o que lhe pede e, tendo as escolhas tomadas, aguarde o fim da execução.
 
-## Resolução de problemas 
+## Resolução de problemas
 ### Hora muda quando se muda entre Windows e Linux
 #### Para Windows 7, 8, 10 e 11
 Copie e execute como administrador na PowerShell do Windows (ou na Linha de Comando do Windows) a seguinte linha

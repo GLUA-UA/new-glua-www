@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Linux Install Party 2022"
-thumbnail: 'thumbnails/orange_tux.svg'
+thumbnail: 'thumbnails/news/linux_install_party_2022.png'
 date: 2022-09-28
 description: "Instalação de Ubuntu em dual boot com o Windows"
 tags: [linux, dual boot, windows]
@@ -37,4 +37,4 @@ Terás que fazer umas configurações iniciais no Windows para permitir usar os 
 
 Recomendamos ainda que trates previamente de efetuar uma cópia de segurança dos teus dados.
 
-Organização: GLUA com o apoio do NEECT, NEEF <!--, NEEET, NEI e AETTUA --> 
+Organização: GLUA com o apoio do NEECT, NEEF <!--, NEEET, NEI e AETTUA -->
