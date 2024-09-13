@@ -1,7 +1,7 @@
 ---
 layout: post
-title: "VPN da UA(novo método)"
-thumbnail: 'thumbnails/orange_tux.svg'
+title: "VPN da UA (novo método)"
+thumbnail: 'thumbnails/tutorials/openvpn.svg'
 date: 2018-06-18
 updated: 2024-07-08
 description: "Como ligar o computador à VPN da Universidade de Aveiro usando SNX"
@@ -9,12 +9,11 @@ tags: []
 tutorial : true
 comments: false
 author: "Leandro Ricardo"
- 
+
 ---
 
 Neste tutorial pode encontrar informações de como configurar a VPN da Universidade Aveiro usando o SNX.
 
- 
 ## Instalação em Ubuntu
 Para Ubuntu temos dentro do nosso conjunto de scritps do glua um relativo á [configuração do sistema]( https://raw.githubusercontent.com/GLUA-UA/glua-scripts/main/glua-system-config-script/glua-system-config-script.sh ), onde uma das secções é dedicada á configuração do vpn da ua.
 Quem não use ubuntu pode ver a secção [abaixo](#instalação-em-outras-distribuições) dedicada a outras distribuições.
@@ -22,15 +21,15 @@ Quem não use ubuntu pode ver a secção [abaixo](#instalação-em-outras-distri
 Estas são as instruções para executa-lo :
 
 ```shell
- ~$ wget https://glua.ua.pt/lip/install.sh && sudo bash install.sh 
+ ~$ wget https://glua.ua.pt/lip/install.sh && sudo bash install.sh
 ```
 
-A partir dai é só seguir a interface gráfica para prosseguir com a configuração do vpn
+A partir dai é só seguir a interface gráfica para prosseguir com a configuração da vpn
 
 ![gui](glua-config-script.png)
 
 
-## Utilização 
+## Utilização
 ### via Web pelo go.ua.pt
 * Conectar - Clique em **conectar**
 * Desconectar - Clique em **desconectar**

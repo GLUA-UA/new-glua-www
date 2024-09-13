@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Linux Install Party 2023"
-thumbnail: 'thumbnails/orange_tux.svg'
+thumbnail: 'thumbnails/news/linux_install_party_2023.png'
 date: 2023-09-22
 description: "Instalação de Ubuntu em dual boot com o Windows"
 tags: [linux, dual boot, windows]

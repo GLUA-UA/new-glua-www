@@ -1,7 +1,7 @@
 ---
 layout: post
-title: "Workshop de Iniciação ao Git e GitHub"
-thumbnail: 'thumbnails/orange_tux.svg'
+title: "Workshop Iniciação ao Git/GitHub"
+thumbnail: 'thumbnails/news/workshop-git-2022-11.png'
 date: 2022-11-03
 description: "Informações e Inscrição no Workshop"
 tags: [git, workshop]
@@ -32,7 +32,7 @@ O Workshop é direcionado para todos os que necessitem desta ferramenta muito im
 
 ## Requisitos:
 - Computador pessoal
-- Git instalado 
+- Git instalado
 - Conta GitHub criada ([link](https://github.com/))
 - Vontade de aprender
 

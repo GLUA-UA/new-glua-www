@@ -1,9 +1,9 @@
 ---
 layout: post
 title: "Acesso à rede sem fios (Eduroam)"
-thumbnail: 'thumbnails/orange_tux.svg'
+thumbnail: 'thumbnails/tutorials/eduroam.svg'
 date: 2013-04-8
-updated: 2018-07-25
+updated: 2024-09-13
 description: "Como configurar a rede eduroam na sua distribuição GNU/Linux."
 tags: []
 tutorial : true
@@ -16,16 +16,16 @@ Neste tutorial pode encontrar informações de como configurar a rede eduroam na
 
 ## Certificados
 
-Para poder conectar-se à rede **eduroam**, vai ser preciso indicar um certificado de autenticação, cujo destino e ficheiro difere entre distribuições GNU/LINUX. 
+Para poder conectar-se à rede **eduroam**, vai ser preciso indicar um certificado de autenticação, cujo destino e ficheiro difere entre distribuições GNU/LINUX.
 Assim sendo, pode confirmar na seguinte tabela qual é o caminho e ficheiro para as diferentes distribuições:
 
 Para poder conectar-se à rede **eduroam** é necessário indicar um certificado de autentificação, cuja a sua localização difere para as diferentes distribuições GNU/LINUX. Assim sendo, pode confirmar na seguinte tabela qual é o caminho do ficheiro para as diferentes distribuições.
 
-|            Distribuição             |                  Ficheiro a selecionar                   |
-|:-----------------------------------:|:--------------------------------------------------------:|
-| **Debian/Ubuntu/Gentoo/Arch Linux** | /etc/ssl/certs/ca-certificates.crt |
-| **Fedora/RHEL**                     | /etc/pki/tls/certs/ca-bundle.crt   |
-| **openSUSE/SLE**                    | /etc/ssl/ca-bundle.pem             |
+|            Distribuição             |        Ficheiro a selecionar         |
+|:-----------------------------------:|:------------------------------------:|
+| **Debian/Ubuntu/Gentoo/Arch Linux** | `/etc/ssl/certs/ca-certificates.crt` |
+| **Fedora/RHEL**                     | `/etc/pki/tls/certs/ca-bundle.crt`   |
+| **openSUSE/SLE**                    | `/etc/ssl/ca-bundle.pem`             |
 
 
 ________________________________
@@ -34,7 +34,7 @@ ________________________________
 
 ## Gnome3
 
-No canto superior direito deve selecionar o ícon de rede 
+No canto superior direito deve selecionar o ícon de rede
 ![gnomeInternetIcon](img/gnome3-1.png)
 
 Após selecionar a rede **eduroam**, deverá preencher os dados como na print, colocando o seu email e password da UA.
@@ -64,10 +64,11 @@ ________________________________
 
 ## Linha de Comandos
 
-<!--TODO: Use a warning-->
+{{<callout type="warning">}}
 (**Atenção: Apenas para utilizadores com experiência...**)
+{{</callout>}}
 
-Caso prefira conectar-se a rede **eduroam** utilizando a consola siga os seguintes passos:
+Caso prefira conectar-se à rede **eduroam** utilizando a consola siga os seguintes passos:
 
 1 - Criar o ficheiro eduroam.conf e guardar o mesmo na home (~):
 
@@ -83,12 +84,13 @@ network={
         password="**********"		# credenciais de acesso
 }
 ```
->caso queira iniciar com a eduroam por padrão adicione a parte do network ao ficheiro /etc/wpa_supplicant/wpa_supplicant.conf (Os passos 3 e 4 passam a ser desnecessários)
+> Caso queira iniciar com a eduroam por padrão adicione a parte do network ao ficheiro /etc/wpa_supplicant/wpa_supplicant.conf (Os passos 3 e 4 passam a ser desnecessários)
 
 2 - Alterar o texto ***SUBSTITUIR*** para o certificado de acordo com a sua distribuição
 
-<!--TODO: Use a warning-->
+{{<callout type="info">}}
 **Consultar a secção dos [certificados](#certificados)**
+{{</callout>}}
 
 ```bash
 ca_cert="SUBSTITUIR"
@@ -108,12 +110,12 @@ sudo dhclient wlan0
 
 Foi usado o cliente de DHCP `dhclient` (típico de Debian/Ubuntu/Fedora), mas poderia ser usado qualquer outro à escolha, por exemplo, o `dhcpcd` (típico de ArchLinux/Gentoo).
 
->Caso tenha problemas de "_disconnects_", ou problemas em obter um endereço IP, na distribuição Arch Linux, adicione a seguinte linha na secção _main_ do ficheiro _NetoworkManager.conf_ que se encontra em */etc/NetoworkManager/NetoworkManager.conf*
+> Caso tenha problemas de "_disconnects_", ou problemas em obter um endereço IP, na distribuição Arch Linux, adicione a seguinte linha na secção _main_ do ficheiro _NetoworkManager.conf_ que se encontra em */etc/NetoworkManager/NetoworkManager.conf*
 ```bash
 DHCP = dhclient
 ```
 
->caso não queira abrir outra consola, pode-se executar o _wpa_supplicant_ em segundo plano usando:
+> Caso não queira abrir outra consola, pode-se executar o _wpa_supplicant_ em segundo plano usando:
 ~~~bash
 sudo wpa_supplicant -i wlan0 -c/home/$USERNAME/eduroam.conf -B
 ~~~

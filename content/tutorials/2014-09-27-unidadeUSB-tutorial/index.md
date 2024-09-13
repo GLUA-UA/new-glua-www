@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Criar unidade de arranque USB"
-thumbnail: 'thumbnails/orange_tux.svg'
+thumbnail: 'thumbnails/tutorials/rufus.svg'
 date: 2014-09-27
 description: "Criação de uma unidade de arranque USB para instalação de sistema operativos GNU/Linux"
 tags: []
@@ -48,7 +48,7 @@ O comando dd está disponível por omissão em quase todos os sistemas UNIX-like
 dd if=<ficheiro de entrada> of=<ficheiro de saida> bs=<tamanho do bloco> && sync
 ~~~
 
->Não existe um tamanho de bloco (bs, block size) ideal. A influência deste parâmetro na velocidade depende do hardware envolvido. Geralmente, um tamanho como 64KB, 1MB, 4MB ou 8MB deixam este programa fazer um bom trabalho.*
+> Não existe um tamanho de bloco (bs, block size) ideal. A influência deste parâmetro na velocidade depende do hardware envolvido. Geralmente, um tamanho como 64KB, 1MB, 4MB ou 8MB deixam este programa fazer um bom trabalho.*
 
 Uma vez que no *NIX tudo é um ficheiro, o nosso dispositivo é representado por um. Para identificar o dispositivo, execute o comando:
 ~~~shell
