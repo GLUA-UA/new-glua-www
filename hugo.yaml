@@ -59,7 +59,7 @@ params:
 menu:
   main:
     - name: Inscreve-te! 
-      url: https://gluacloud.rui2015.me/index.php/apps/forms/s/zYRd2ngYwKXqSK5dDKxexX9M
+      url: https://glua.ua.it/inscricao
       weight: 1
     - name: Helpdesk 
       url: https://glua.ua.pt/helpdesk
@@ -73,3 +73,6 @@ menu:
     - name: Tutoriais
       url: /tutorials
       weight: 5
+    - name: Sobre Nós
+      url: /about
+      weight: 6

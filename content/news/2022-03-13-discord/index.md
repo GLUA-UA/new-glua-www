@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Discord do GLUA"
-thumbnail: 'thumbnails/orange_tux.svg'
+thumbnail: 'thumbnails/news/discord.svg'
 date: 2022-03-14
 description: "Novo canal oficial de comunicação com o GLUA"
 tags: [discord, glua, notícias, helpdesk, eventos, self-hosting]
@@ -31,4 +31,3 @@ No servidor temos várias categorias onde se destinam a temas diferentes:
 Esperemos ver-vos no servidor a participar no discord em breve!
 
 ![cartaz](img/discord_glua.png)
-

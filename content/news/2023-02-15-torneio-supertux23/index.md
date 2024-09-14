@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Torneio de SuperTux 2023"
-thumbnail: 'thumbnails/orange_tux.svg'
+thumbnail: 'thumbnails/news/torneio_supertux_2023.png'
 date: 2023-02-15
 description: "Detalhes e Inscrições para o torneio."
 tags: [supertux, torneio, social, glua]
@@ -78,4 +78,3 @@ input:valid + span::after {
   </div>
   <input type="submit" class="btn btn-warning" value="Submeter" />
 </form>
-

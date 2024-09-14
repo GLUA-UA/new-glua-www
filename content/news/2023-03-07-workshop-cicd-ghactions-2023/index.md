@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Workshop de CI/CD em GitHub Actions"
-thumbnail: 'thumbnails/orange_tux.svg'
+thumbnail: 'thumbnails/news/workshop_cicd_2023.png'
 date: 2023-03-07
 updated: 2023-03-13
 description: "Informações e Inscrição no Workshop"
@@ -40,4 +40,3 @@ Participa no nosso workshop onde vais aprender a automatizar os processos de des
 
 ## Conteúdos do Workshop
 [Link com conteúdos](https://jcapucho.github.io/github-actions-workshop/)
-
