@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Encontro da Comunidade Ubuntu-PT"
-thumbnail: 'thumbnails/orange_tux.svg'
+thumbnail: 'thumbnails/news/encontro_ubuntu_pt_01_2023.png'
 date: 2023-01-14
 description: "Detalhes e Inscrições para o encontro."
 tags: [comunidade, ubuntu, ubuntu-pt, social, glua]
