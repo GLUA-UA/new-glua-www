@@ -2,7 +2,7 @@
 title: Sobre nós
 tags: [about, glua]
 date: 2016-03-21
-updated: 2022-11-15
+updated: 2024-09-14
 comments: false
 ---
 
@@ -10,20 +10,28 @@ comments: false
 
 <br>
 
-O **GLUA**, *Grupo Linux da Universidade de Aveiro*, é um grupo integrado no Departamento de Eletrónica, Telecomunicações e Informática (**DETI**) que tem como objetivo divulgar e promover o **Software Livre e Aberto** (F/OSS), mais nomeadamente soluções baseadas em sistemas GNU/Linux.
-Os membros ativos do GLUA são maioritariamente alunos do DETI, embora o grupo esteja aberto a todos os que queiram contribuir, seja de que maneira for.
+O **GLUA**, *Grupo de Linux da Universidade de Aveiro*, é um grupo originalmente fundado no dia 9 de março de 2001 com foco em divulgar e promover o **Software Livre e Aberto** (F/OSS), mais nomeadamente soluções baseadas em sistemas GNU/Linux. O grupo é composto maioritariamente por alunos do Departamento de Eletrónica, Telecomunicações e Informática (**DETI**), mas está aberto a todos os que queiram contribuir, seja de que maneira for.
+
+## Mudança para núcleo da AETTUA
+
+O GLUA é, desde 19 de dezembro de 2023, um núcleo da [AETTUA (*Associação de Eletrónica, Telecomunicações e Telemática da Universidade de Aveiro*)](https://aettua.pt/).
 
 ## Sede
 
-O GLUA está sediado no **DETI**.
+O GLUA está sediado no **DETI**, na sala da esquerda do hall dos anfiteatros.
 
 ## Hora de atendimento
 
-Atualmente, o GLUA não se encontra com um horário de atendimento. 
-Pode, no entanto, contactar-nos através do [e-mail](mailto:glua@ua.pt) ou pelo nosso servidor [discord](https://discord.gg/kTXAMkPqFS) e poderemos marcar uma hora.
+O **GLUA** não tem horário de atendimento fixo. No entanto, pode disponibiliza um serviço de **Helpdesk** (online e presencial) dependendo da disponibilidade dos membros do grupo. Para mais informações, consulte a nossa página de [Helpdesk](/helpdesk).
 
 ## Junta-te a nós!
-Se pretende colaborar com o GLUA de alguma maneira, ou mesmo fazer parte, inscreve-te neste [formulário](https://gluacloud.rui2015.me/index.php/apps/forms/s/zYRd2ngYwKXqSK5dDKxexX9M).
+
+Queres te juntar a nós? Acede à nossa página de [inscrição](/inscricao).
+
+## FAQ
+
+Tens dúvidas? Consulta a nossa página de [FAQ](/faq).
 
 ## Contactos
-Pode contactnar-nos via *e-mail* [glua@ua.pt](mailto:glua@ua.pt) ou através do nosso servidor de [discord](https://discord.gg/kTXAMkPqFS).
+
+Pode contactnar-nos via *e-mail* [glua@ua.pt](mailto:glua@ua.pt) ou através do nosso servidor de [discord](https://glua.ua.pt/discord).
