@@ -1,2 +1,9 @@
 .hugo_build.lock
 public/
+
+# Editor specific files
+.idea/
+.vscode/
+*.swp
+*.swo
+*.swn
