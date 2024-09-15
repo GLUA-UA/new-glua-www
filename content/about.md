@@ -35,3 +35,7 @@ Tens dúvidas? Consulta a nossa página de [FAQ](/faq).
 ## Contactos
 
 Pode contactnar-nos via *e-mail* [glua@ua.pt](mailto:glua@ua.pt) ou através do nosso servidor de [discord](https://glua.ua.pt/discord).
+
+## Documentação
+
+Toda a documentação do **GLUA** pode ser encontrada na nossa [NextCloud](https://gluacloud.rui2015.me/index.php/s/LB8GrPHMF7dm75L).
