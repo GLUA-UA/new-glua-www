@@ -1069,6 +1069,19 @@ video {
 .hx-p-4 {
   padding: 1rem;
 }
+
+.hx-grid-cols-1 {
+  grid-template-columns: repeat(1, minmax(0, 1fr));
+}
+
+.hx-grid-cols-2 {
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+}
+
+.hx-grid-cols-3 {
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+}
+
 .hx-p-6 {
   padding: 1.5rem;
 }
@@ -3285,6 +3298,10 @@ body:is(html[class~="dark"] *) {
     align-items: flex-end;
   }
 
+  .sm\:hx-grid-col-2 {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
   .sm\:hx-text-xl {
     font-size: 1.25rem;
   }
@@ -3296,6 +3313,23 @@ body:is(html[class~="dark"] *) {
     }
   }
 }
+
+.hx-grid-cols-2 {
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.hx-grid-cols-3 {
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.hx-grid-cols-4 {
+  grid-template-columns: repeat(4, 1fr);
+}
+
+.hx-grid-cols-5 {
+  grid-template-columns: repeat(5, 1fr);
+}
+
 @media (min-width: 768px) {
 
   .md\:hx-sticky {
@@ -3338,6 +3372,10 @@ body:is(html[class~="dark"] *) {
     justify-content: flex-start;
   }
 
+  .md\:hx-grid-cols-2 {
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
   .md\:hx-self-start {
     align-self: flex-start;
   }
@@ -3371,6 +3409,10 @@ body:is(html[class~="dark"] *) {
 
   .xl\:hx-block {
     display: block;
+  }
+
+  .xl\:hx-grid-cols-4 {
+    grid-template-columns: repeat(4, minmax(0, 1fr));
   }
 }
 .ltr\:hx-right-1\.5:where([dir="ltr"], [dir="ltr"] *) {

@@ -2,3 +2,8 @@
   --primary-hue: 30deg;
   --primary-saturation: 100%;
 }
+
+.hx-gap-8 {
+  gap: 2rem;
+}
+
