@@ -1,9 +1,6 @@
-.hugo_build.lock
+# Hugo output
 public/
+resources/
+.hugo_build.lock
 
-# Editor specific files
-.idea/
-.vscode/
-*.swp
-*.swo
-*.swn
+.vdcode/

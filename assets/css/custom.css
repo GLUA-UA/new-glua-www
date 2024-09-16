@@ -1,5 +1,4 @@
-.homenaje-regular {
-  font-family: "Homenaje", sans-serif;
-  font-weight: 400;
-  font-style: normal;
+:root {
+  --primary-hue: 30deg;
+  --primary-saturation: 100%;
 }
