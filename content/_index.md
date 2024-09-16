@@ -4,90 +4,64 @@ layout: hextra-home
 ---
 
 {{< hextra/hero-container
-  image="/img/hero-image.png"
-  imageLink="https://github.com/axivo/k3s-cluster"
-  imageTitle="Kubernetes Services"
+  image="img/hero-image.png"
+  imageLink=""
+  imageTitle="Um terminal espetacular!"
 >}}
 <div class="hx-mt-6 hx-mb-6">
 {{< hextra/hero-headline >}}
-  High Availability Cluster Deployed with Ansible
+  Bem-vindo ao Grupo de Linux da Universidade de Aveiro
 {{< /hextra/hero-headline >}}
 </div>
 
 <div class="hx-mt-6 hx-mb-6">
 {{< hextra/hero-subtitle >}}
-  Documentation and tutorials to deploy, manage and monitor your
-  Kubernetes cluster and related components, in style.
+  Aqui podes procurar ajuda e encontrar informações sobre o grupo, eventos, projetos e muito mais!
 {{< /hextra/hero-subtitle >}}
 </div>
 
-<div class="hx-mt-6 hx-mb-6">
-{{< hextra/hero-button text="Get Started" link="wiki" >}}
-</div>
 {{< /hextra/hero-container >}}
 
 <div class="hx-mt-6 hx-mb-6">
 {{< hextra/hero-section >}}
-  Used Technologies
+  Eventos e Atividades
 {{< /hextra/hero-section >}}
 </div>
 
 {{< hextra/feature-grid >}}
   {{< hextra/feature-card
-    title="K3s"
-    subtitle="Certified Kubernetes distribution built for IoT and Edge computing, running on Ubuntu Server LTS."
-    class="hx-aspect-auto md:hx-aspect-[1.1/1] max-md:hx-min-h-[340px]"
-    image="/images/card-k3s.webp"
-    imageClass="hx-top-[20%] hx-left-[24px] hx-w-[180%] sm:hx-w-[110%] dark:hx-opacity-80"
-    link="https://k3s.io"
-    style="background: radial-gradient(ellipse at 50% 80%,rgba(221,210,59,0.15),hsla(0,0%,100%,0));"
+    title="Linux Install Party"
+    subtitle="Prepara o teu computador para o semestre com a nossa ajuda e vem instalar o Linux!"
+    link="/news/2023-09-22-lip23/"
   >}}
   {{< hextra/feature-card
-    title="Cilium"
-    subtitle="eBPF-based project, providing networking, security, and observability for Kubernetes clusters."
-    class="hx-aspect-auto md:hx-aspect-[1.1/1] max-md:hx-min-h-[340px]"
-    image="/images/card-cilium.webp"
-    imageClass="hx-top-[20%] hx-left-[24px] hx-w-[180%] sm:hx-w-[110%] dark:hx-opacity-80"
-    link="https://cilium.io"
-    style="background: radial-gradient(ellipse at 50% 80%,rgba(194,97,254,0.15),hsla(0,0%,100%,0));"
+    title="Workshop de Linux"
+    subtitle="Não há necessidade de estar perdido. Aprende a usar o Linux e a sua linha de comandos com o nosso workshop!"
+    link="/news/2023-10-19-workshop-introducao-linux-2023/"
   >}}
   {{< hextra/feature-card
-    title="Prometheus Stack"
-    subtitle="Kubernetes cluster monitoring and Grafana dashboards, using Prometheus Operator."
-    class="hx-aspect-auto md:hx-aspect-[1.1/1] max-md:hx-min-h-[340px]"
-    image="/images/card-prometheus.webp"
-    imageClass="hx-top-[20%] hx-left-[24px] hx-w-[180%] sm:hx-w-[110%] dark:hx-opacity-80"
-    link="https://github.com/prometheus-community/helm-charts/tree/main/charts/kube-prometheus-stack"
-    style="background: radial-gradient(ellipse at 50% 80%,rgba(142,53,74,0.15),hsla(0,0%,100%,0));"
+    title="Helpdesk"
+    subtitle="Com problemas no teu computador? Nós ajudamos-te a resolver gratuitamente!"
+    link="/helpdesk/"
   >}}
   {{< hextra/feature-card
-    title="ArgoCD"
-    subtitle="Declarative, GitOps continuous delivery tool for Kubernetes, with a fully-loaded UI."
-    link="https://argoproj.github.io/cd"
+    title="Torneio de SuperTux"
+    subtitle="O semestre está a ser difícil? Vem relaxar connosco e joga SuperTux e ganha prémios!"
+    link="/news/2023-02-15-torneio-supertux23/"
   >}}
   {{< hextra/feature-card
-    title="CertManager"
-    subtitle="Cloud native certificate management for Kubernetes, with production certificates provided by Cloudflare."
-    link="https://cert-manager.io"
+    title="Workshop de Git e GitHub"
+    subtitle="Aprende a usar o Git e o GitHub para gerir os teus projetos de forma eficiente e colaborativa!"
+    link="/news/2022-11-03-workshop-git-2022/"
   >}}
   {{< hextra/feature-card
-    title="ExternalDNS"
-    subtitle="ExternalDNS makes Kubernetes resources discoverable via Cloudflare DNS."
-    link="https://kubernetes-sigs.github.io/external-dns"
+    title="Workshop de Vim"
+    subtitle="Aprende a usar o Vim, um editor de texto poderoso e altamente configurável! Adeus ao VSCode!"
+    link=""
   >}}
   {{< hextra/feature-card
-    title="HAProxy"
-    subtitle="Reliable, high-performance TCP/HTTP load balancer and proxy, used for K3s control-planes."
-    link="https://www.haproxy.org"
-  >}}
-  {{< hextra/feature-card
-    title="Kured"
-    subtitle="Kubernetes daemonset performing safe automatic node reboots, controlled by underlying OS."
-    link="https://kured.dev"
-  >}}
-  {{< hextra/feature-card
-    title="Longhorn"
-    subtitle="Lightweight, reliable, and powerful distributed block storage system for Kubernetes."
-    link="https://longhorn.io"
+    title="Workshop de CI/CD em Github Actions"
+    subtitle="Aprende a usar o GitHub Actions para automatizar o teu fluxo de trabalho de desenvolvimento!"
+    link="/news/2023-03-07-workshop-cicd-ghactions-2023/"
   >}}
 {{< /hextra/feature-grid >}}

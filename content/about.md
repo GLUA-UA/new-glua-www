@@ -6,7 +6,7 @@ updated: 2024-09-14
 comments: false
 ---
 
-![glua_bg_white](/img/logos/glua_medium_orange_for_white_bg.png)
+![glua_bg_white](/img/branding/glua_logo.svg)
 
 <br>
 
