@@ -2,7 +2,7 @@
 layout: post
 title: "Acesso à rede sem fios (Eduroam)"
 thumbnail: 'thumbnails/tutorials/eduroam.svg'
-date: 2013-04-8
+date: 2013-04-08
 updated: 2024-09-13
 description: "Como configurar a rede eduroam na sua distribuição GNU/Linux."
 tags: []

@@ -2,7 +2,7 @@
 layout: post
 title: "Configuração email UA"
 thumbnail: 'thumbnails/tutorials/email.svg'
-date: 2013-04-8
+date: 2013-04-08
 description: "Como configurar o email da UA."
 tags: []
 tutorial : true
