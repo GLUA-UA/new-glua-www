@@ -1,6 +1,8 @@
 ---
 title: Sobre nós
 tags: [about, glua]
+sidebar:
+  exclude: true
 date: 2016-03-21
 updated: 2024-09-14
 comments: false
