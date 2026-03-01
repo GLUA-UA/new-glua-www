@@ -37,8 +37,8 @@ params:
     logo:
       path: img/branding/glua_logo.svg
       dark: img/branding/glua_logo_dark.svg
-      width: 81px
-      height: 38px
+      width: 100px
+      height: 50px
   page:
     width: normal
   footer:
