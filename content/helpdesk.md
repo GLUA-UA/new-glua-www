@@ -35,11 +35,12 @@ O **GLUA** disponibiliza o serviço de **Helpdesk presencial de Linux** de forma
 
 O **Helpdesk presencial de Windows** e de **hardware** têm custos associados:
 
-- Helpdesk Windows - Preço sob consulta
+- Helpdesk Windows - 2€ - 7€
+- Helpdesk Mac - 2.5€ - 8€
 - Diagnóstico/orçamento - 10€ (oferta se o resto do serviço for feito por nós)
-- Limpeza de Desktop - 15€
-- Limpeza de Portátil - 20€
-- Troca de componentes (armazenamento e memória) - 15€
+- Limpeza de Desktop - 12€
+- Limpeza de Portátil - 18€
+- Troca de componentes (armazenamento e memória) - 10€
   - consultoria + encomenda - +5€
 - Clonagem de discos - 5€
 
