@@ -52,7 +52,7 @@ O formulário abaixo permite marcar um horário para o **Helpdesk presencial de 
 
 Os restantes serviços de **Helpdesk presencial** têm de ser marcados presencialmente na sala do **GLUA**, ou através do nosso [Discord](https://discord.gg/kTXAMkPqFS).
 
-Caso o formulário não esteja a aparecer, pode aceder diretamente [aqui](https://gluacloud.rui2015.me/index.php/apps/appointments/pub/KJarXb_zI7bH/form).
+Caso o formulário não esteja a aparecer, pode aceder diretamente [aqui](https://cloud-glua.ua.pt/apps/appointments/pub/5CY8DM79y7rZc3rY/form).
 
 <br>
-<iframe src="https://gluacloud.rui2015.me/index.php/apps/appointments/embed/KJarXb_zI7bH/form" width="100%" height="800"></iframe>
+<iframe src="https://cloud-glua.ua.pt/apps/appointments/embed/5CY8DM79y7rZc3rY/form" width="100%" height="800"></iframe>
