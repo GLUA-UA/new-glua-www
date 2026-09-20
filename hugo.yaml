@@ -63,7 +63,7 @@ params:
     - name: instagram
       image_b: img/icons/social/instagram_b.svg 
       image_w: img/icons/social/instagram_w.svg 
-      url: https://instagram.com/glua01
+      url: https://instagram.com/glua.aettua
     - name: twitter
       image_b: img/icons/social/twitter_b.svg 
       image_w: img/icons/social/twitter_w.svg 
@@ -101,7 +101,7 @@ menu:
       pageRef: /helpdesk
       weight: 3
     - name: Mirrors ↗
-      url: https://glua.ua.pt/mirrors
+      url: https://glua.ua.pt/pub
       weight: 4
     - name: Inscricão
       pageRef: /inscricao
@@ -117,7 +117,7 @@ menu:
       params:
         type: search
     - name: Área Reservada ↗
-      url: https://gluacloud.rui2015.me
+      url: https://cloud-glua.ua.pt
       weight: 9
       params:
         button: primary
@@ -132,7 +132,7 @@ menu:
       pageRef: /helpdesk
       weight: 3
     - name: "Mirrors ↗"
-      url: "https://glua.ua.pt/mirrors"
+      url: "https://glua.ua.pt/pub"
       weight: 4
     - name: Inscricão
       pageRef: /inscricao
@@ -144,7 +144,7 @@ menu:
       pageRef: /faq
       weight: 7
     - name: Área Reservada ↗
-      url: https://gluacloud.rui2015.me
+      url: https://cloud-glua.ua.pt
       weight: 8
 
 
