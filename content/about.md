@@ -8,7 +8,8 @@ updated: 2024-09-14
 comments: false
 ---
 
-![glua_bg_white](/img/branding/glua_logo_dark.svg)
+<img class="about-logo hx-block dark:hx-hidden" src="/img/branding/glua_logo.svg" alt="GLUA Logo">
+<img class="about-logo hx-hidden dark:hx-block" src="/img/branding/glua_logo_dark.svg" alt="GLUA Logo">
 
 <br>
 
