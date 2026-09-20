@@ -147,3 +147,24 @@ details:not([open]) > *:not(summary) {
 h1 {
   font-family: 'Questrial', sans-serif;
 }
+
+/* Keep the footer in the viewport on short pages without forcing the content
+   itself to occupy a full viewport in addition to the footer. */
+.site-body {
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+}
+
+.site-main {
+  flex: 1 0 auto;
+}
+
+.site-main > .hx-mx-auto > .hx-w-full {
+  min-height: 0;
+}
+
+.about-logo {
+  width: 15rem;
+  height: auto;
+}

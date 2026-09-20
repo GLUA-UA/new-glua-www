@@ -4,13 +4,14 @@
     {{- partial "head.html" . -}}
     <title>{{ if .Params.pagetitle }}{{ .Params.pagetitle }}{{ else }}{{ .Title }}{{ end }}</title>
   </head>
-  <body dir="ltr">
+  <body class="site-body" dir="ltr">
     {{- partial "navbar.html" . -}}
-    {{- block "main" . }}{{ end -}}
+    <main class="site-main">
+      {{- block "main" . }}{{ end -}}
+    </main>
     {{- if or (eq .Site.Params.footer.enable nil) (.Site.Params.footer.enable) }}
       {{ partial "footer.html" . }}
     {{ end }}
   </body>
   {{ partial "scripts.html" . }}
 </html>
-
