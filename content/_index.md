@@ -35,6 +35,11 @@ layout: hextra-home
     link="/news/2026-09-14-lip26/"
   >}}
   {{< hextra/feature-card
+    title="Workshop de Introdução ao Linux"
+    subtitle="Queres aprender como funciona o Linux? Inscreve-te neste workshop!"
+    link="/news/2026-09-22-workshop-introducao-linux-2026/"
+  >}}
+  {{< hextra/feature-card
     title="Helpdesk"
     subtitle="Com problemas no teu computador? Nós ajudamos-te a resolver gratuitamente!"
     link="/helpdesk/"
