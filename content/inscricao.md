@@ -13,12 +13,8 @@ O **GLUA** é um grupo aberto a todos os que queiram contribuir, seja de que man
 
 ## Como funciona a inscrição?
 
-Para se inscrever no **GLUA**, basta preencher o formulário abaixo e aguardar pela próxima reunião geral de membros na qual será formalmente aceite.
+Para se inscrever no **GLUA**, basta esperar que o recrutamento abra, preencher o formulário mencionado abaixo, caso esteja aberto, e aguardar pela marcação da entrevista, onde serão dadas mais informações.
 
 ### Formulário de inscrição
 
-O formulário de inscrição está fechado por agora :(
-<!--Se o formulário não estiver a aparecer, pode aceder diretamente [aqui](https://gluacloud.rui2015.me/index.php/apps/forms/s/zYRd2ngYwKXqSK5dDKxexX9M).
-
-<br>
-<iframe src="https://gluacloud.rui2015.me/index.php/apps/forms/s/zYRd2ngYwKXqSK5dDKxexX9M" width="100%" height="1000" border="0"></iframe> !-->
+Neste momento infelizmente não temos o recrutamento aberto.

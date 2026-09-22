@@ -25,7 +25,7 @@ O GLUA está sediado no **DETI**, na sala da esquerda do hall dos anfiteatros.
 
 ## Hora de atendimento
 
-O **GLUA** não tem horário de atendimento fixo. No entanto, pode disponibiliza um serviço de **Helpdesk** (online e presencial) dependendo da disponibilidade dos membros do grupo. Para mais informações, consulte a nossa página de [Helpdesk](/helpdesk).
+O **GLUA** não tem horário de atendimento fixo. No entanto, disponibiliza um serviço de **Helpdesk** (online e presencial) dependendo da disponibilidade dos membros do grupo. Para mais informações, consulte a nossa página de [Helpdesk](/helpdesk).
 
 ## Junta-te a nós!
 
@@ -37,8 +37,8 @@ Tens dúvidas? Consulta a nossa página de [FAQ](/faq).
 
 ## Contactos
 
-Pode contactnar-nos via *e-mail* [glua@ua.pt](mailto:glua@ua.pt) ou através do nosso servidor de [discord](https://glua.ua.pt/discord).
+Pode contactar-nos via *e-mail* [glua@ua.pt](mailto:glua@ua.pt) ou através do nosso servidor de [Discord](https://glua.ua.pt/discord).
 
 ## Documentação
 
-Toda a documentação do **GLUA** pode ser encontrada na nossa [NextCloud](https://gluacloud.rui2015.me/index.php/s/LB8GrPHMF7dm75L).
+Toda a documentação do **GLUA** pode ser encontrada na nossa [NextCloud](https://glua.ua.pt/documentos).

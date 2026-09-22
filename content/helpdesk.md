@@ -17,7 +17,7 @@ O **GLUA** disponibiliza dois tipos de **Helpdesk**: [online](#helpdesk-online) 
 
 ## Helpdesk online {#helpdesk-online}
 
-A **Helpdesk** do **GLUA** está disponível online, através do nosso servidor de [Discord](https://discord.gg/kTXAMkPqFS). Basta aceder aos canais de texto (incluindo fórum de ajuda) e voz disponíveis e pedir ajuda.
+A **Helpdesk** do **GLUA** está disponível online, através do nosso servidor de [Discord](https://glua.ua.pt/discord). Basta aceder aos canais de texto (incluindo fórum de ajuda) e voz disponíveis e pedir ajuda.
 
 ## Helpdesk presencial {#helpdesk-presencial}
 
@@ -50,7 +50,7 @@ Para marcar um horário, basta visitar a secção abaixo.
 
 O formulário abaixo permite marcar um horário para o **Helpdesk presencial de Linux** do **GLUA**.
 
-Os restantes serviços de **Helpdesk presencial** têm de ser marcados presencialmente na sala do **GLUA**, ou através do nosso [Discord](https://discord.gg/kTXAMkPqFS).
+Os restantes serviços de **Helpdesk presencial** têm de ser marcados presencialmente na sala do **GLUA**, ou através do nosso [Discord](https://glua.ua.pt/discord).
 
 Caso o formulário não esteja a aparecer, pode aceder diretamente [aqui](https://cloud-glua.ua.pt/apps/appointments/pub/5CY8DM79y7rZc3rY/form).
 
