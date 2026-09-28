@@ -33,6 +33,9 @@ Talvez até te divirtas com o nosso amigo pinguim... 👀
 ### Inscrições:
 [https://glua.ua.pt/wsp-intro-linux-set2026](https://glua.ua.pt/wsp-intro-linux-set2026)
 
+### Guião
+[https://cloud-glua.ua.pt/s/nLBfF46JtGPQSe7](https://cloud-glua.ua.pt/s/nLBfF46JtGPQSe7)
+
 ### Requisitos:
 - Computador com Linux instalado em Dual-Boot
 - Vontade de aprender
