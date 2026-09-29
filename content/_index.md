@@ -40,6 +40,11 @@ layout: hextra-home
     link="/news/2026-09-22-workshop-introducao-linux-2026/"
   >}}
   {{< hextra/feature-card
+    title="Quartus Install Party 2026"
+    subtitle="Neste evento ajudamos a instalar o Quartus Prime sem dificuldades!"
+    link="/news/2026-09-28-quartus-install-party-2026/"
+  >}}
+  {{< hextra/feature-card
     title="Helpdesk"
     subtitle="Com problemas no teu computador? Nós ajudamos-te a resolver gratuitamente!"
     link="/helpdesk/"
